@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D31F49629A6114C00C9C52A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D31F49529A6114C00C9C52A /* main.cpp */; };
+		9D00CF3829B1F20D00A44A70 /* 顺序栈-顺序表模拟栈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D00CF3729B1F20D00A44A70 /* 顺序栈-顺序表模拟栈.cpp */; };
+		9D034E4229D13BB900F5CC2C /* 中缀表达式的计算.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D034E4129D13BB900F5CC2C /* 中缀表达式的计算.cpp */; };
+		9D29E77B29B9874A009B69CF /* 链表实现队列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D29E77A29B9874A009B69CF /* 链表实现队列.cpp */; };
+		9D31F49629A6114C00C9C52A /* 顺序表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D31F49529A6114C00C9C52A /* 顺序表.cpp */; };
+		9D31F4A229A6121500C9C52A /* 单链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D31F4A129A6121500C9C52A /* 单链表.cpp */; };
+		9D4EDF9829CF114200A1317F /* 中缀表达式转换后缀表达式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EDF9729CF114200A1317F /* 中缀表达式转换后缀表达式.cpp */; };
+		9D52F31B29C54EE20094B308 /* 后缀表达式的计算（栈模拟）.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D52F31A29C54EE20094B308 /* 后缀表达式的计算（栈模拟）.cpp */; };
+		9D68511129B61C83002566C2 /* 链表模拟栈的基本操作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D68511029B61C83002566C2 /* 链表模拟栈的基本操作.cpp */; };
+		9D76ED0B29B7670D0095262F /* 顺序表实现队列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D76ED0A29B7670D0095262F /* 顺序表实现队列.cpp */; };
+		9D7ED8C729C17556008379D9 /* 括号匹配操作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D7ED8C629C17556008379D9 /* 括号匹配操作.cpp */; };
+		9D868E9629ADF6F900A70504 /* 双链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D868E9529ADF6F900A70504 /* 双链表.cpp */; };
+		9D868E9829AE078600A70504 /* 循环链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D868E9729AE078600A70504 /* 循环链表.cpp */; };
+		9D868E9A29AE079200A70504 /* 静态链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D868E9929AE079200A70504 /* 静态链表.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +35,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D00CF3729B1F20D00A44A70 /* 顺序栈-顺序表模拟栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序栈-顺序表模拟栈.cpp"; sourceTree = "<group>"; };
+		9D034E4129D13BB900F5CC2C /* 中缀表达式的计算.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "中缀表达式的计算.cpp"; sourceTree = "<group>"; };
+		9D29E77A29B9874A009B69CF /* 链表实现队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链表实现队列.cpp"; sourceTree = "<group>"; };
 		9D31F49229A6114C00C9C52A /* dataType */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataType; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D31F49529A6114C00C9C52A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9D31F49529A6114C00C9C52A /* 顺序表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序表.cpp"; sourceTree = "<group>"; };
+		9D31F4A129A6121500C9C52A /* 单链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表.cpp"; sourceTree = "<group>"; };
+		9D4EDF9729CF114200A1317F /* 中缀表达式转换后缀表达式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "中缀表达式转换后缀表达式.cpp"; sourceTree = "<group>"; };
+		9D52F31A29C54EE20094B308 /* 后缀表达式的计算（栈模拟）.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "后缀表达式的计算（栈模拟）.cpp"; sourceTree = "<group>"; };
+		9D68511029B61C83002566C2 /* 链表模拟栈的基本操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链表模拟栈的基本操作.cpp"; sourceTree = "<group>"; };
+		9D76ED0A29B7670D0095262F /* 顺序表实现队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序表实现队列.cpp"; sourceTree = "<group>"; };
+		9D7ED8C629C17556008379D9 /* 括号匹配操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "括号匹配操作.cpp"; sourceTree = "<group>"; };
+		9D868E9529ADF6F900A70504 /* 双链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "双链表.cpp"; sourceTree = "<group>"; };
+		9D868E9729AE078600A70504 /* 循环链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "循环链表.cpp"; sourceTree = "<group>"; };
+		9D868E9929AE079200A70504 /* 静态链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "静态链表.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,37 @@
 		9D31F49429A6114C00C9C52A /* dataType */ = {
 			isa = PBXGroup;
 			children = (
-				9D31F49529A6114C00C9C52A /* main.cpp */,
+				9D868E9C29AE07FC00A70504 /* 栈，队列，数组 */,
+				9D868E9B29AE07BB00A70504 /* 线性表 */,
 			);
 			path = dataType;
+			sourceTree = "<group>";
+		};
+		9D868E9B29AE07BB00A70504 /* 线性表 */ = {
+			isa = PBXGroup;
+			children = (
+				9D31F49529A6114C00C9C52A /* 顺序表.cpp */,
+				9D31F4A129A6121500C9C52A /* 单链表.cpp */,
+				9D868E9529ADF6F900A70504 /* 双链表.cpp */,
+				9D868E9729AE078600A70504 /* 循环链表.cpp */,
+				9D868E9929AE079200A70504 /* 静态链表.cpp */,
+			);
+			path = "线性表";
+			sourceTree = "<group>";
+		};
+		9D868E9C29AE07FC00A70504 /* 栈，队列，数组 */ = {
+			isa = PBXGroup;
+			children = (
+				9D00CF3729B1F20D00A44A70 /* 顺序栈-顺序表模拟栈.cpp */,
+				9D68511029B61C83002566C2 /* 链表模拟栈的基本操作.cpp */,
+				9D76ED0A29B7670D0095262F /* 顺序表实现队列.cpp */,
+				9D29E77A29B9874A009B69CF /* 链表实现队列.cpp */,
+				9D7ED8C629C17556008379D9 /* 括号匹配操作.cpp */,
+				9D52F31A29C54EE20094B308 /* 后缀表达式的计算（栈模拟）.cpp */,
+				9D4EDF9729CF114200A1317F /* 中缀表达式转换后缀表达式.cpp */,
+				9D034E4129D13BB900F5CC2C /* 中缀表达式的计算.cpp */,
+			);
+			path = "栈，队列，数组";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +171,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D31F49629A6114C00C9C52A /* main.cpp in Sources */,
+				9D868E9829AE078600A70504 /* 循环链表.cpp in Sources */,
+				9D76ED0B29B7670D0095262F /* 顺序表实现队列.cpp in Sources */,
+				9D868E9629ADF6F900A70504 /* 双链表.cpp in Sources */,
+				9D31F4A229A6121500C9C52A /* 单链表.cpp in Sources */,
+				9D4EDF9829CF114200A1317F /* 中缀表达式转换后缀表达式.cpp in Sources */,
+				9D868E9A29AE079200A70504 /* 静态链表.cpp in Sources */,
+				9D00CF3829B1F20D00A44A70 /* 顺序栈-顺序表模拟栈.cpp in Sources */,
+				9D29E77B29B9874A009B69CF /* 链表实现队列.cpp in Sources */,
+				9D034E4229D13BB900F5CC2C /* 中缀表达式的计算.cpp in Sources */,
+				9D31F49629A6114C00C9C52A /* 顺序表.cpp in Sources */,
+				9D52F31B29C54EE20094B308 /* 后缀表达式的计算（栈模拟）.cpp in Sources */,
+				9D68511129B61C83002566C2 /* 链表模拟栈的基本操作.cpp in Sources */,
+				9D7ED8C729C17556008379D9 /* 括号匹配操作.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
