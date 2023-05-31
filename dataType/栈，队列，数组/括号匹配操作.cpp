@@ -32,7 +32,7 @@ bool IsEmpty(SqStack1 S){
     return false;
 }
 // 新元素入栈
-bool Push(SqStack1 &S,char x){
+bool Push(SqStack1 &S,char x)  {
     printf("进栈操作%d:",x);
     printf("\n");
     if (S.top == MaxSize -1) {
@@ -72,9 +72,8 @@ bool bracketCheck(char str[],int length){
         if (str[i]=='(' || str[i] == '[' || str[i] == '{') {
             Push(S, str[i]);
         }else{
-            if (IsEmpty(S)) { // 扫描到有括号并且栈为空，也就是栈里面没有与之相匹配的左括号
+            if (IsEmpty(S))  // 扫描到有括号并且栈为空，也就是栈里面没有与之相匹配的左括号
                 return false; // 匹配失败
-            }
             // 如果栈不为空的话那就进行对比，看是否对比正确
             char topElem; // 出栈的栈顶左括号数据
             Delete(S, topElem);
