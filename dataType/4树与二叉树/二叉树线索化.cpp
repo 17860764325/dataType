@@ -11,7 +11,7 @@
 ThreadNode *pre = NULL;
 
 
-// 中序遍历二叉树
+// =========================================================== 中序遍历二叉树
 void InThread(ThreadTree T){
     if (T != NULL){
         InThread(T->lchild);
@@ -39,12 +39,13 @@ void CreateInthread(ThreadTree T){
         InThread(T);
         // 如果最后一个为空，则让其线索化
         if (pre->rchild == NULL){
+            // 标识一下已经被线索化
             pre->rtag = 1;
         }
     }
 }
 
-// 先序线索化二叉树
+// =========================================================== 先序线索化二叉树
 void PreThread(ThreadTree T){
     if (T != NULL){
         // 如果当前节点没有左孩子，则将 lchild 指向前驱
@@ -62,7 +63,7 @@ void PreThread(ThreadTree T){
         if (T->ltag == 0){
             PreThread(T->lchild);
         }
-        // 如果当前节点没有右孩子，则递归线索化右子树
+        // 如果当前节点没有右孩子，则递归线索化左子树
         if (T->rtag == 0){
             PreThread(T->rchild);
         }
@@ -75,12 +76,13 @@ void CreatePrethread(ThreadTree T){
     if (T != NULL){
         PreThread(T);
         if (pre->rchild == NULL){
+            // 标识一下已经被线索化
             pre->rtag = 1;
         }
     }
 }
 
-// 后序线索化二叉树
+// =========================================================== 后序线索化二叉树
 void PostThread(ThreadTree T){
     if (T != NULL){
         // 如果当前节点没有左孩子，则递归线索化右子树
@@ -107,6 +109,7 @@ void CreatePostthread(ThreadTree T){
     if (T != NULL){
         PostThread(T);
         if (pre->rchild == NULL){
+            // 标识一下已经被线索化
             pre->rtag = 1;
         }
     }
