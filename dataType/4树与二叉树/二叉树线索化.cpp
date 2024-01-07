@@ -3,14 +3,9 @@
 // 中序线索二叉树
 #include <stdio.h>
 #include <stdlib.h>
+#include "ThreadNode.h"
 
 // 线索二叉树的节点
-typedef struct ThreadNode {
-    int data;
-    struct ThreadNode *lchild, *rchild;
-    // 标志位，0 表示左孩子，1 表示前驱
-    int ltag, rtag;
-} ThreadNode, *ThreadTree;
 
 // 全局变量 pre 指向当前访问节点的前驱
 ThreadNode *pre = NULL;
@@ -40,7 +35,9 @@ void InThread(ThreadTree T){
 void CreateInthread(ThreadTree T){
     pre = NULL;
     if (T != NULL){
+        // 进行线索化
         InThread(T);
+        // 如果最后一个为空，则让其线索化
         if (pre->rchild == NULL){
             pre->rtag = 1;
         }
