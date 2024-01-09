@@ -42,7 +42,7 @@ void pos(CSNode *T) {
 }
 
 
-void basTree::putogshudebianli() {
+void 普通树遍历::putogshudebianli() {
     CSNode a;
     CSNode b;
     CSNode c;

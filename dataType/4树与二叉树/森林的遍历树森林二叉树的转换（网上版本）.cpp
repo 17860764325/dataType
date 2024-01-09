@@ -4,6 +4,9 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+
+#include "../../headSpace/dataTypeWork/树森林的遍历和转换至二叉树.h"
+
 #define MAX 100
 
 typedef char Elemtype;
@@ -199,30 +202,30 @@ void Forest_Show_Post_Order(Forest F){
 
 
 /*—————————————————————————————————————————————————————————————————————————————————————*/
-//int main(){
-//  CSTree F[3];
-//  for(int i = 0; i < 3; i++){
-//    printf("创建第 %d 棵树 输入根节点(注意根节点无兄弟):\n", i + 1);
-//    F[i] = Create_CSTree();
-//    printf("\n");
-//  }
-//
-//  printf("第一棵普通树后根遍历: \n");
-//  CSTree_Show_Post_Order(F[0]);
-//  printf("\n");
-//
-//  printf("第二棵普通树先根遍历: \n");
-//  CSTree_Show_Pre_Order(F[1]);
-//  printf("\n");
-//
-//  printf("三棵树组成的森林转化为二叉树之后中序遍历: \n");
-//  //如果是一个Forset结构体指针F  Foresr_Transform_to_BinaryTree(F->ct, 0, (F->n) - 1)
-//  BinaryTree bt = Forest_Transform_to_BinaryTree(F, 0, 2);
-//  BinaryTree_Show_Infix_Order(bt);
-//  printf("\n");
-//
-//  printf("二叉树再次转换为森林之后先根遍历: \n");
-//  Forest backF = BinaryTree_Transform_to_Forest(bt);
-//  Forest_Show_Pre_Order(backF);
-//  printf("\n");
-//}
+void  树森林的遍历和转换至二叉树::test(){
+  CSTree F[3];
+  for(int i = 0; i < 3; i++){
+    printf("创建第 %d 棵树 输入根节点(注意根节点无兄弟):\n", i + 1);
+    F[i] = Create_CSTree();
+    printf("\n");
+  }
+
+  printf("第一棵普通树后根遍历: \n");
+  CSTree_Show_Post_Order(F[0]);
+  printf("\n");
+
+  printf("第二棵普通树先根遍历: \n");
+  CSTree_Show_Pre_Order(F[1]);
+  printf("\n");
+
+  printf("三棵树组成的森林转化为二叉树之后中序遍历: \n");
+  //如果是一个Forset结构体指针F  Foresr_Transform_to_BinaryTree(F->ct, 0, (F->n) - 1)
+  BinaryTree bt = Forest_Transform_to_BinaryTree(F, 0, 2);
+  BinaryTree_Show_Infix_Order(bt);
+  printf("\n");
+
+  printf("二叉树再次转换为森林之后先根遍历: \n");
+  Forest backF = BinaryTree_Transform_to_Forest(bt);
+  Forest_Show_Pre_Order(backF);
+  printf("\n");
+}

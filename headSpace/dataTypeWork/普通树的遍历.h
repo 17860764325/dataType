@@ -5,7 +5,7 @@
 #pragma once
 #ifndef DATATYPE_普通树遍历_H
 #define DATATYPE_普通树遍历_H
-class basTree {
+class 普通树遍历 {
 private:
 public:
   void putogshudebianli();
