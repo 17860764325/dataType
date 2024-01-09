@@ -1,9 +1,9 @@
 //
 // Created by lihaoran on 7/17/23.
 // 中序线索二叉树
+#include "../../headSpace/dataTypeWork/ThreadNode.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "ThreadNode.h"
 
 // 线索二叉树的节点
 

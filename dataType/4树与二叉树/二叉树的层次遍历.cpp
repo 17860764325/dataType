@@ -29,7 +29,7 @@ bool QueueEmpty(LinkNode *Q) {
 // 入队操作
 void EnQueue(LinkNode *&Q, BiTree e) {
     LinkNode *p = (LinkNode *) malloc(sizeof(LinkNode));
-    p->data = e;
+    p->data = &e;
     p->next = NULL;
     // 尾插法
     LinkNode *last = Q;
@@ -45,7 +45,7 @@ bool DeQueue(LinkNode *&Q, BiTree &e) {
         return false;
     }
     LinkNode *p = Q->next;
-    e = p->data;
+    e = *p->data;
     Q->next = p->next;
     free(p);
     return true;

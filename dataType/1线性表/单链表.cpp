@@ -498,7 +498,7 @@ void homeWork2(){
 //
 //int main(){
 ////    testInsert();
-////    test();
+////    testCMake();
 ////    LinkList L;
 //    homeWork2();
 //}

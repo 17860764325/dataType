@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/8.
 //
 
-#include "普通树的遍历.h"
+#include "../../headSpace/dataTypeWork/普通树的遍历.h"
 #include "iostream"
 #include "stdio.h"
 using namespace std;
