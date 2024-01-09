@@ -89,13 +89,13 @@ bool bracketCheck(char str[],int length){
     return IsEmpty(S);
 }
 
-int main(){
-    char str[10] = {'{','{','(',')','}','}','{','{','}','}'};
-    printf("%d",bracketCheck(str,10));
-    if(bracketCheck(str,10)){
-        printf("符合规范");
-    }else {
-        printf("不符合规范");
-    }
-    printf("\n");
-}
+//int main(){
+//    char str[10] = {'{','{','(',')','}','}','{','{','}','}'};
+//    printf("%d",bracketCheck(str,10));
+//    if(bracketCheck(str,10)){
+//        printf("符合规范");
+//    }else {
+//        printf("不符合规范");
+//    }
+//    printf("\n");
+//}

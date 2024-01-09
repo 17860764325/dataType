@@ -363,10 +363,10 @@ void reatFrontTest(){
     
 }
 
-int main(){
-    reatFrontIdenticalTest();
-    reatFrontTest();
-}
+//int main(){
+//    reatFrontIdenticalTest();
+//    reatFrontTest();
+//}
 
 
 

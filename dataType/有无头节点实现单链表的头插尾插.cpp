@@ -105,22 +105,22 @@ void Print(LinkList L){
     }
 }
 
-int main(){
-    LinkList L,S,P,Q;
-    printf("有头结点的头插法：");
-    HeadInster(L,10);
-    PrintList(L);
-
-    printf("\n无头结点的头插法：");
-    Headinster(P,10);
-    Print(P);
-    
-    printf("\n有头结点的尾插法：");
-    Tailinster(S,10);
-    Print(S);
-
-    printf("\n无头结点的尾插法：");
-    Tailinster(Q,10);
-    Print(Q);
-
-}
+//int main(){
+//    LinkList L,S,P,Q;
+//    printf("有头结点的头插法：");
+//    HeadInster(L,10);
+//    PrintList(L);
+//
+//    printf("\n无头结点的头插法：");
+//    Headinster(P,10);
+//    Print(P);
+//
+//    printf("\n有头结点的尾插法：");
+//    Tailinster(S,10);
+//    Print(S);
+//
+//    printf("\n无头结点的尾插法：");
+//    Tailinster(Q,10);
+//    Print(Q);
+//
+//}
