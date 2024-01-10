@@ -1,6 +1,7 @@
 #include "headSpace/test/complex.h"
 #include "headSpace/dataTypeWork/普通树的遍历.h"
 #include "headSpace/dataTypeWork/树森林的遍历和转换至二叉树.h"
+#include "headSpace/dataTypeWork/并查集.h"
 #include <iostream>
 
 int main() {
@@ -20,4 +21,5 @@ int main() {
     a.putogshudebianli();
     树森林的遍历和转换至二叉树 b;
     b.test();
+    并查集 bc;
 }
