@@ -13,11 +13,12 @@ file(GLOB SRC2 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/1线性表/*.cpp)
 file(GLOB SRC3 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/2栈，队列，数组/*.cpp)
 file(GLOB SRC4 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/3串/*.cpp)
 file(GLOB SRC5 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/4树与二叉树/*.cpp)
+file(GLOB SRC6 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/5图/*.cpp)
 
 # main.cpp的cpp文件路径
 file(GLOB SRC1 ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
-set(SRC ${SRC} ${SRC1} ${SRC2} ${SRC3} ${SRC4} ${SRC5})
+set(SRC ${SRC} ${SRC1} ${SRC2} ${SRC3} ${SRC4} ${SRC5} ${SRC6})
 #set(SRC ${SRC} ${SRC2})
 #set(SRC ${SRC} ${SRC3})
 #set(SRC ${SRC} ${SRC4})
