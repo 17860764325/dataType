@@ -8,7 +8,7 @@
 
 class 并查集 {
 private:
-    int UFSets[SIZE]
+    int S[SIZE];
 public:
     /// 初始化并查集
     void initial(int S[]);
