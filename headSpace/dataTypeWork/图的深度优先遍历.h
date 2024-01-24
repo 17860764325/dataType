@@ -18,6 +18,11 @@ private:
     typedef char VertexType; /// 顶点数据类型
     typedef int EdgeType; /// 权值数据类型
     typedef  struct {
+        // 只能存储非负的整数
+        unsigned int a;
+        // 联合体结合体，多个不同数据类型的数据共享一个空间，但是某一时刻只会存在一个数据类型的数据。
+        union {
+        };
         VertexType Vex[MaxVertexNum];  /// 顶点
         EdgeType Edge[MaxVertexNum][MaxVertexNum]; /// 边的权
         int vexnum,arcnum; /// 图的当前顶点数和弧数

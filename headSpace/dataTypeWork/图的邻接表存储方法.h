@@ -15,7 +15,7 @@ private:
     typedef int EdgeType; /// 权值数据类型
 
     /// 边/弧
-    typedef struct {
+    typedef struct ArcNode {
         int adjvex; /// 边/弧指向那个节点
         struct ArcNode *next; /// 指向下一条弧的指针
         // InfoType info;  /// 边权值
