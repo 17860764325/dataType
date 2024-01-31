@@ -17,11 +17,12 @@ file(GLOB SRC6 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/5图/*.cpp)
 file(GLOB SRC8 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/6查找/*.cpp)
 file(GLOB SRC9 ${CMAKE_CURRENT_SOURCE_DIR}/dataType/7排序/*.cpp)
 file(GLOB SRC7 ${CMAKE_CURRENT_SOURCE_DIR}/课后代码题目/图代码题/*.cpp)
+file(GLOB SRC10 ${CMAKE_CURRENT_SOURCE_DIR}/课后代码题目/树形查找课后题/*.cpp)
 
 # main.cpp的cpp文件路径
 file(GLOB SRC1 ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
-set(SRC ${SRC} ${SRC1} ${SRC2} ${SRC3} ${SRC4} ${SRC5} ${SRC6} ${SRC7} ${SRC8} ${SRC9})
+set(SRC ${SRC} ${SRC1} ${SRC2} ${SRC3} ${SRC4} ${SRC5} ${SRC6} ${SRC7} ${SRC8} ${SRC9} ${SRC10})
 #set(SRC ${SRC} ${SRC2})
 #set(SRC ${SRC} ${SRC3})
 #set(SRC ${SRC} ${SRC4})
