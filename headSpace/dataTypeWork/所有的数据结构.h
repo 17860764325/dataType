@@ -1,6 +1,6 @@
 //
 // Created by lihaoran on 2024/2/4.
-//
+/// 这里面存储了所有的数据结构类型，以后有新的数据结构类型直接从这里添加即可。
 
 #ifndef UNTITLED1_所有的数据结构_H
 #define UNTITLED1_所有的数据结构_H

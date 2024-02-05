@@ -2,6 +2,7 @@
 #include "headSpace/dataTypeWork/普通树的遍历.h"
 #include "headSpace/dataTypeWork/树森林的遍历和转换至二叉树.h"
 #include "headSpace/dataTypeWork/并查集.h"
+#include "headSpace/dataTypeWork/插入排序.h"
 #include <iostream>
 
 int main() {
@@ -17,9 +18,12 @@ int main() {
     printf("\n");*/
 
     // 树的先根和后根遍历
-    普通树遍历 a;
-    a.putogshudebianli();
-    树森林的遍历和转换至二叉树 b;
-    b.test();
-    并查集 bc;
+//    普通树遍历 a;
+//    a.putogshudebianli();
+//    树森林的遍历和转换至二叉树 b;
+//    b.test();
+//    并查集 bc;
+    插入排序 a;
+    a.test();
+
 }
