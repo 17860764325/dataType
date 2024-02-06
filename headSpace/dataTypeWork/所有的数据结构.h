@@ -18,4 +18,11 @@ typedef struct BSTNode{
     int count;   /// 栽树的节点中增加一个count 数据成员存储以该节点为根的子树的结点的个数
 } BSTNode,*BSTree;
 
+/// 排序交换方法：
+void swap(int &a,int &b){
+    int temp = a;
+    a =b;
+    b= temp;
+}
+
 #endif//UNTITLED1_所有的数据结构_H
