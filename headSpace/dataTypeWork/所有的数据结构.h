@@ -18,6 +18,12 @@ typedef struct BSTNode{
     int count;   /// 栽树的节点中增加一个count 数据成员存储以该节点为根的子树的结点的个数
 } BSTNode,*BSTree;
 
+/// 单链表
+typedef struct LNode{
+    int data; // 该节点的数据
+    struct LNode *next; // 该节点的下一个节点
+}LNode, *LinkList;
+
 /// 排序交换方法：
 void swap(int &a,int &b){
     int temp = a;
