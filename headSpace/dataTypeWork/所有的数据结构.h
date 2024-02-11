@@ -11,11 +11,6 @@ using namespace std;
 
 typedef int ElemType;/// ElemType 的数据结构类型
 
-/// 单链表
-typedef struct LinkNode {
-    ElemType data;
-    struct LinkNode *next;
-} LinkNode, *LinkList;
 
 /// 二叉树的数据结构常用
 typedef struct BSTNode {
@@ -39,7 +34,7 @@ void swap(int &a, int &b) {
 
 /// 基数排序的数据结构
 typedef  struct {
-    LinkNode *front,*rear;/// 队列的队头和队尾指针
+    LNode *front,*rear;/// 队列的队头和队尾指针
 }LinkQueue;
 
 #endif//UNTITLED1_所有的数据结构_H
