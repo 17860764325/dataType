@@ -3,6 +3,7 @@
 #include "headSpace/dataTypeWork/树森林的遍历和转换至二叉树.h"
 #include "headSpace/dataTypeWork/并查集.h"
 #include "headSpace/dataTypeWork/插入排序.h"
+#include "headSpace/dataTypeWork/斐波那契数列.h"
 #include <iostream>
 
 int main() {
@@ -23,7 +24,9 @@ int main() {
 //    树森林的遍历和转换至二叉树 b;
 //    b.test();
 //    并查集 bc;
-    插入排序 a;
+//    插入排序 a;
+//    a.test();
+    斐波那契数列 a;
     a.test();
 
 }
