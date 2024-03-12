@@ -394,7 +394,7 @@ void test(){
     PrintList(L);
 }
 
-// 作业，给你一个单链表，你实现逆置
+/// 作业，给你一个单链表，你实现逆置
 void homeWork(LinkList &L){
     // 有头节点
     // 插入数据,
@@ -413,6 +413,20 @@ void homeWork(LinkList &L){
     }
     PrintListInsert(L);
     printf("\n");
+}
+
+/// 另一种方法实现原地逆转，使用头插法，重新将单链表插入一遍
+
+void function(LinkList &l){
+    LNode *p,*q; /// 创建两个变量
+    p = l->next;
+    l->next = NULL; /// 先将链表断开
+    while(p!=NULL){ /// 头插法进行插入
+        q = p;
+        q->next = l->next  ;
+        l ->next = q;
+        p=p->next;
+    }
 }
 
 

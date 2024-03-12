@@ -11,6 +11,12 @@ typedef struct {
     int length;
 } SqeList;
 
+typedef SqeList ele;
+
+typedef struct {
+    ele list[MaxSize];
+    int length;
+}abc;
 
 /// 动态初始化
 typedef struct {
@@ -24,6 +30,9 @@ void InitList(SqeList &L) {
         L.data[i] = 0;
     }
     L.length = 0;
+
+    abc a;
+    a.list[5].data[4];
 }
 // 动态顺序表初始化
 void InitListDy(SqeListDy &l, int initSize) {
