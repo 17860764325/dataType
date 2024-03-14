@@ -116,7 +116,7 @@ bool getTopHead(LStack L,int &x){
         return false;
     }
     x = L->next->data;
-    printf("不带头节点，栈顶元素：%d\n",x);
+    printf("带头节点，栈顶元素：%d\n",x);
     return true;
 }
 // 不带头节点获取栈顶元素
