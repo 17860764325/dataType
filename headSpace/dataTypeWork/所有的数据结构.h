@@ -26,11 +26,7 @@ typedef struct LNode {
 } LNode, *LinkList;
 
 /// 排序交换方法：
-void swap(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
+void swap(int &a, int &b) ;
 
 /// 基数排序的数据结构
 typedef  struct {

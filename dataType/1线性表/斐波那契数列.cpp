@@ -13,6 +13,7 @@ int 斐波那契数列::fun(int n) {
     if (n > 1){
         return fun(n-1) + fun(n-2);
     }
+    return 0;
 }
 
 void 斐波那契数列::test() {

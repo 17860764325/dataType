@@ -29,4 +29,13 @@ set(SRC ${SRC} ${SRC1} ${SRC2} ${SRC3} ${SRC4} ${SRC5} ${SRC6} ${SRC7} ${SRC8} $
 #set(SRC ${SRC} ${SRC4})
 #set(SRC ${SRC} ${SRC5})
 message(${SRC})
-add_executable(untitled1 ${SRC})
+#add_executable(untitled1 ${SRC})
+
+# 遍历项目根目录下所有的 .cpp 文件
+file (GLOB files *.cpp)
+foreach (file ${files})
+    string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+    # 添加一个可执行的程序  语法: add_executable(程序名 源代码文件)
+    add_executable (${exe} ${file})
+    message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
+endforeach ()

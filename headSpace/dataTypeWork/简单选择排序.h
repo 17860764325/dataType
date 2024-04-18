@@ -10,6 +10,11 @@
 class 简单选择排序 {
 public:
     void SelectSort(int A[],int n);
+    void swap(int &a, int &b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
 };
 
 

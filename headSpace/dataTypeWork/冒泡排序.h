@@ -11,7 +11,7 @@ class 冒泡排序 {
 private:
 public:
     void BubbleSort(int A[],int n);
-    void swap(int &a,int &b);
+    void swap1(int &a,int &b);
 };
 
 

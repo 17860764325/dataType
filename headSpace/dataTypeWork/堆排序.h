@@ -15,6 +15,11 @@ public:
     void HeadAdjust(int A[],int k,int len);
     /// 对大根堆进行排序
     void HeapSort(int A[],int len);
+    void swap(int &a, int &b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
 };
 
 
