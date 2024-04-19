@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/31.
 //
 
-#include "dataTypeWork/求指定节点在二叉排序树中的层次.h"
+#include "../../headSpace/dataTypeWork/求指定节点在二叉排序树中的层次.h"
 
 int 求指定节点在二叉排序树中的层次::function(BSTree bsTree,int key) {
     int item = 0; /// 计数器

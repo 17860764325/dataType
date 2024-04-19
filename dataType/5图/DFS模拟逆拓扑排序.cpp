@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/19.
 //
 
-#include "dataTypeWork/DFS模拟逆拓扑排序.h"
+#include "../../headSpace/dataTypeWork/DFS模拟逆拓扑排序.h"
 
 //
 // Created by lihaoran on 2024/1/15.

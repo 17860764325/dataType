@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/4.
 //
 
-#include "dataTypeWork/插入排序.h"
+#include "../../headSpace/dataTypeWork/插入排序.h"
 
 void printArray(ElemType A[]){
     A[0] =0;

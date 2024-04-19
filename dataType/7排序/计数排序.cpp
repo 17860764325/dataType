@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/13.
 //
 
-#include "dataTypeWork/计数排序.h"
+#include "../../headSpace/dataTypeWork/计数排序.h"
 
 void 计数排序::CountSort(int *A, int *B, int n, int k) {
     int i,C[k];

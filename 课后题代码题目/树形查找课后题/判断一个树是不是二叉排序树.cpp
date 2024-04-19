@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/31.
 //
 
-#include "dataTypeWork/判断一个树是不是二叉排序树.h"
+#include "../../headSpace/dataTypeWork/判断一个树是不是二叉排序树.h"
 
 int 判断一个树是不是二叉排序树::function(判断一个树是不是二叉排序树::BiTree bt) {
     int b1,b2; /// b1 做接受左子树使用,b2 做接受右子树返回值

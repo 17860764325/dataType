@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/31.
 //
 
-#include "dataTypeWork/判断二叉树是否为平衡二叉树.h"
+#include "../../headSpace/dataTypeWork/判断二叉树是否为平衡二叉树.h"
 
 int 判断二叉树是否为平衡二叉树::functon(BSTree bt, int &balance, int &h) {
     int bl = 0, br = 0, hl = 0, hr = 0; /// 左右子树平衡标记以及高度。

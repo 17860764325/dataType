@@ -6,7 +6,7 @@
 #define UNTITLED1_斐波那契数列_H
 #include "所有的数据结构.h"
 
-
+//template <class T>
 class 斐波那契数列 {
 public:
     int fun(int n );

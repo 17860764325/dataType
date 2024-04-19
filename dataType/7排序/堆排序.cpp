@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/7.
 //
 
-#include "dataTypeWork/堆排序.h"
+#include "../../headSpace/dataTypeWork/堆排序.h"
 
 void 堆排序::BuildMaxHeap(int *A, int len) {
     for (int i = len / 2; i > 0; i--) {/// 从后往前调整所有非终端节点

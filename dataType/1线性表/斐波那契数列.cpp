@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/28.
 //
 
-#include "dataTypeWork/斐波那契数列.h"
+#include "../../headSpace/dataTypeWork/斐波那契数列.h"
 int 斐波那契数列::fun(int n) {
     if (n == 0){
         return 0;
@@ -18,4 +18,9 @@ int 斐波那契数列::fun(int n) {
 
 void 斐波那契数列::test() {
     cout << fun(5) << endl;
+}
+
+ int main() {
+     斐波那契数列 a;
+   a.test();
 }

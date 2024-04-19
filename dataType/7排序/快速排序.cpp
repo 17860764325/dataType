@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/6.
 //
 
-#include "dataTypeWork/快速排序.h"
+#include "../../headSpace/dataTypeWork/快速排序.h"
 
 int Partition(int *A, int low, int high) {
     int item = A[low];                               /// 取中轴，也就是比较的值，基数

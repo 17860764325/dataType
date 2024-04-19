@@ -7,6 +7,7 @@
 
 #include "iostream"
 #include "stdio.h"
+#include "stdlib.h"
 using namespace std;
 
 typedef int ElemType;/// ElemType 的数据结构类型

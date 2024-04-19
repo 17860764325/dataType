@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/29.
 //
 
-#include "dataTypeWork/二叉排序树操作.h"
+#include "../../headSpace/dataTypeWork/二叉排序树操作.h"
 #include "stdio.h"
 #include "stdlib.h"
 

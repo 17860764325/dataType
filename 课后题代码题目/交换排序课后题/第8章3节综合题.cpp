@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/6.
 //
 
-#include "dataTypeWork/第8章3节综合题1.h"
+#include "../../headSpace/dataTypeWork/第8章3节综合题1.h"
 
 /// 将一个序列的所有奇数放在偶数前边
 void 第8章3节综合题::move(int A[], int len) {

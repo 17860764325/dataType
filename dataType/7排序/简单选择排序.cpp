@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/7.
 //
 
-#include "dataTypeWork/简单选择排序.h"
+#include "../../headSpace/dataTypeWork/简单选择排序.h"
 
 void 简单选择排序::SelectSort(int A[], int n) {
     for (int i = 0; i < n - 1; ++i) {

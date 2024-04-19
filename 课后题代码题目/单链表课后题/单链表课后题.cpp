@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/3/7.
 //
 
-#include "dataTypeWork/单链表课后题.h"
+#include "../../headSpace/dataTypeWork/单链表课后题.h"
 void 单链表课后题::title1(LinkList &L, ElemType x) {
     LNode *p  = L->next,* pre = L,*q; // 给p和pre赋值初始值
     while (p!= NULL){

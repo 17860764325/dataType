@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/16.
 //
 
-#include "dataTypeWork/floyd佛洛依德算法求最短路径.h"
+#include "../../headSpace/dataTypeWork/floyd佛洛依德算法求最短路径.h"
 
 void floyd佛洛依德算法求最短路径::Floyd(int n) {
     for (int k = 0; k < n; k++) { /// 考虑以Vk作为中转点

@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/25.
 //
 
-#include "dataTypeWork/折半查找.h"
+#include "../../headSpace/dataTypeWork/折半查找.h"
 
 int 折半查找::Binary_Search(折半查找::SSTable L, 折半查找::ElemType key) {
     int low=0,high = L.TableLen,mid ;

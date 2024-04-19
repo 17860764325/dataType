@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/5.
 //
 
-#include "dataTypeWork/冒泡排序.h"
+#include "../../headSpace/dataTypeWork/冒泡排序.h"
 
 /// 交换方法，每次交换，活进行三次位置移动
 void 冒泡排序::swap1(int &a, int &b) {

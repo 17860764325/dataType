@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/31.
 //
 
-#include "dataTypeWork/章节734的10题.h"
+#include "../../headSpace/dataTypeWork/章节734的10题.h"
 
 BSTNode *章节734的10题::function(BSTree b, int k) {
     /// 在以t为根的子树上寻找第k小的元素，返回其所在的节点的指针。k从11开始计算

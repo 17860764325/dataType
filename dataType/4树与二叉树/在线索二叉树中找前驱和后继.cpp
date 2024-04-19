@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 // 引入节点
-#include "../../headSpace/dataTypeWork/ThreadNode.h"
+#include "../../headSpace/../../headSpace/dataTypeWork/ThreadNode.h"
 
 // ========================================== 中序 ==========================================
 

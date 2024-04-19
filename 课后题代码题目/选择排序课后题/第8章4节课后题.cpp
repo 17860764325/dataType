@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/8.
 //
 
-#include "dataTypeWork/第8章4节课后题.h"
+#include "../../headSpace/dataTypeWork/第8章4节课后题.h"
 
 /// 使用单链表实现简单选择排序
 void 第8章4节课后题::selectSort(LinkList &L) {

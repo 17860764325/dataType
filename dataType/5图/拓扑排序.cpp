@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/19.
 //
 
-#include "dataTypeWork/拓扑排序.h"
+#include "../../headSpace/dataTypeWork/拓扑排序.h"
 
 
 bool 拓扑排序::TopologicalSort(拓扑排序::ALGraph &G) {

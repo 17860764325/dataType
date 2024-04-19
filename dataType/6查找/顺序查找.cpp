@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/24.
 //
 
-#include "dataTypeWork/顺序查找.h"
+#include "../../headSpace/dataTypeWork/顺序查找.h"
 
 int 顺序查找::Search_Seq(顺序查找::SSTable ST, 顺序查找::ElemType key) {
     ST.elem[0] = key; /// 哨兵

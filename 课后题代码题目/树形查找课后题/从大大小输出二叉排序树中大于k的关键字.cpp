@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/31.
 //
 
-#include "dataTypeWork/从大大小输出二叉排序树中大于k的关键字.h"
+#include "../../headSpace/dataTypeWork/从大大小输出二叉排序树中大于k的关键字.h"
 
 void 从大大小输出二叉排序树中大于k的关键字::function(BSTree b, int k) {
     /// 便利顺序 右根左 递归

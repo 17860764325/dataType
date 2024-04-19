@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/15.
 //
 
-#include "dataTypeWork/图的广度优先遍历.h"
+#include "../../headSpace/dataTypeWork/图的广度优先遍历.h"
 
 /// 访问节点
 void visit(int node){

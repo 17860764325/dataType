@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/1/17.
 //
 
-#include "dataTypeWork/将图的邻接表转换为邻接矩阵.h"
+#include "../../headSpace/dataTypeWork/将图的邻接表转换为邻接矩阵.h"
 
 void 将图的邻接表转换为邻接矩阵::Convert(将图的邻接表转换为邻接矩阵::ALGraph alGraph, 将图的邻接表转换为邻接矩阵::MGraphWithoutPower arcs) {
     /// 循环alGraph 邻接表，将扫描到的 点都赋值给 邻接矩阵

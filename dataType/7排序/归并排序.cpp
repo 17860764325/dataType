@@ -2,7 +2,7 @@
 // Created by lihaoran on 2024/2/8.
 //
 
-#include "dataTypeWork/归并排序.h"
+#include "../../headSpace/dataTypeWork/归并排序.h"
 
 int *B = (int *) malloc(20 * sizeof (int)); /// 开辟空间
 
